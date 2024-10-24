@@ -6,7 +6,8 @@ int main(){
 	srand(time(NULL));
 	
 	for (int i = 1;i<11;i++){
-		printf("»ë¤l­È%d : %d\n",i, rand%6);
+		
+		printf("»ë¤l­È%d : %d\n",i, rand()%6 + 1);
 	}
 	return 0;
 }
